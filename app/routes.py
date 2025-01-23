@@ -3,10 +3,10 @@ from app import app
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
-# Load the quantized model and tokenizer from Hugging Face
+# Load the model and tokenizer from Hugging Face
 model_name = "microsoft/DialoGPT-medium"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16)
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
 @app.route('/')
 def index():

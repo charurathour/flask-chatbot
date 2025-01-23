@@ -22,6 +22,13 @@ body {
     flex-direction: column;
 }
 
+header, footer {
+    background-color: #28a745; /* Changed to green */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
 .chatbox {
     flex: 1;
     border: 1px solid #ccc;
@@ -85,4 +92,10 @@ body {
 
 .input-area button:hover {
     background-color: #218838;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #fff;
 }
