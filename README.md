@@ -1,6 +1,6 @@
 # Flask Chatbot
 
-This project is a simple chatbot interface built using Flask. It allows users to interact with a chatbot through a web interface.
+This project is a simple chatbot interface built using Flask. It allows users to interact with a chatbot through a web interface. This project is completely made with help of AI to demonstrate how generative AI can expedite a development process.
 
 ## Project Structure
 
